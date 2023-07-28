@@ -1,0 +1,28 @@
+#mainBody{
+    width: 1000px;
+}
+h1{
+    color: blue;
+}
+body{
+    display: flex; /*turn it into a flexible container*/
+    justify-content: center; /*for table*/
+    text-align: center; /*for text*/
+}
+#imagesGrid img{
+    max-width: 100%;
+    height: auto;
+}
+#imagesGrid td{
+  width: 25%;
+}
+
+/*Shadow effect when hovered over*/
+#imagesGrid img:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/*Make the boarder rounded when hovered over*/
+#imagesGrid img:hover {
+  border-radius: 10px;
+}
