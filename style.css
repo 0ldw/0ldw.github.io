@@ -28,10 +28,9 @@ body{
 }
 
 #slideshow {
-  position: absolute; /* Add this position property */
-  bottom: 0; /* Align the button to the bottom of the div */
-  left: 50%; /* Center the button horizontally within the div */
-  transform: translateX(-50%); /* Adjust horizontal position */
+  position: absolute;
+  bottom: 0; 
+  left: 50%; 
   margin-top: 10px;
   padding: 10px 20px;
   background-color: #19a71e;
